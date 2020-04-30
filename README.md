@@ -4,7 +4,7 @@
 
 Code is adapted from https://github.com/ellisdg/3DUnetCNN for Unified Memory.
 
-UnifuedMemoryはIBMのTensorFlow Large Model Support version 1によって行っている。
+UnifuedMemoryはIBMのTensorFlow Large Model Support version 1を使用しています。
 
 詳細はhttps://github.com/IBM/tensorflow-large-model-support/tree/tflmsv1
 
