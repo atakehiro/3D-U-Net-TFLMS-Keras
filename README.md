@@ -20,7 +20,7 @@ python Main_LMS.py
 ```
 Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用いる)
 
-## Dependencies
+## Environment
 Anaconda
 
 Python 3.6
