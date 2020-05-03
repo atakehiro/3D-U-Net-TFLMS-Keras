@@ -12,12 +12,13 @@ UnifuedMemoryはIBMのTensorFlow Large Model Support version 1を使用してい
 
 
 ## Usage
+Main_LMS.pyで画像のパスやwindow sizeなどのパラメータを調整して実行
 
 ```bash
 export TF_FORCE_GPU_ALLOW_GROWTH=true
 python Main_LMS.py
 ```
-
+Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用いる)
 
 ## Dependencies
 Anaconda
