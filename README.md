@@ -1,6 +1,6 @@
 # 3D-U-Net-TFLMS-Keras
 
-このコードはhttps://github.com/ellisdg/3DUnetCNN を参考に3D U-NetをUnifuedMemoryで出来るように改変したものです。
+このコードはhttps://github.com/ellisdg/3DUnetCNN の3D U-NetをUnifuedMemoryで出来るように改変したものです。
 
 Code is adapted from https://github.com/ellisdg/3DUnetCNN for Unified Memory.
 
