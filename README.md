@@ -13,7 +13,7 @@ UnifuedMemoryはIBMのTensorFlow Large Model Support version 1を使用してい
 
 ## Usage
 
-```
+```bash
 export TF_FORCE_GPU_ALLOW_GROWTH=true
 python Main_LMS.py
 ```
