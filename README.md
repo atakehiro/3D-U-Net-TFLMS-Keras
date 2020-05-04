@@ -36,7 +36,7 @@ Anaconda
 
 Python 3.6
 
-tensorflow-gpu==1.1.0
+tensorflow-gpu==1.14.0
 
 tensorfow-lms== 0.1.0 (for UnifuedMemory)
 
