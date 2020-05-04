@@ -18,4 +18,4 @@ if __name__ == "__main__":
     batch_size = 8
     no_epochs = 10
     model.fit(input_data, label_data, batch_size=batch_size, epochs=no_epochs, verbose=1)
-    model.save_weights('./3d_unet.hdf5')
+    model.save_weights('./3d_unet.h5')
