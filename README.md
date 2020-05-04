@@ -27,7 +27,9 @@ Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用い�
 ## Benefit of UnifuedMemory
 RTX2080(8GB)のGPU + メインメモリ32GB
 
-UnifuedMemoryなし(Main.py)ではwindow sizeは(48, 48, 48)→UnifuedMemoryあり(Main_LMS.py)では、(56, 56, 56)まで学習が可能になった。(batch size = 8)
+UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)
+
+window size：(48, 48, 48) →　(56, 56, 56)まで向上
 
 ## Environment
 Anaconda
