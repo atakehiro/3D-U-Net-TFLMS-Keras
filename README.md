@@ -25,11 +25,11 @@ python Main_LMS.py
 Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用いる)
 
 ## Benefit of UnifuedMemory
-RTX2080(8GB)のGPU + メインメモリ32GB
+環境：RTX2080(8GB)のGPU + メインメモリ32GB
 
 UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)
 
-window size：(48, 48, 48) →　(56, 56, 56)まで向上
+window size：(48, 48, 48) →　(56, 56, 56)まで解像度が向上した
 
 ## Environment
 Anaconda
