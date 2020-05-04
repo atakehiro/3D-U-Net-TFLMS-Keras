@@ -54,5 +54,5 @@ if __name__ == "__main__":
     batch_size = 8
     no_epochs = 10
     model.fit(input_data, label_data, batch_size=batch_size, epochs=no_epochs, verbose=1, callbacks=[lms_callback])
-    pred = model.predict(input_data)
-    np.save('prediction', pred)
+    #pred = model.predict(input_data)
+    #np.save('prediction', pred)
