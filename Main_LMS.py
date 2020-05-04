@@ -52,7 +52,7 @@ if __name__ == "__main__":
     model = unet_model_3d((1,) + window_size)
     model.summary()
     batch_size = 8
-    no_epochs = 1
+    no_epochs = 10
     model.fit(input_data, label_data, batch_size=batch_size, epochs=no_epochs, verbose=1, callbacks=[lms_callback])
     pred = model.predict(input_data)
     np.save('prediction', pred)
