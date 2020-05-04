@@ -29,7 +29,7 @@ Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用い�
 
 UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)
 
-window size：(48, 48, 48) →　(56, 56, 56)まで解像度が向上した
+window size：(48, 48, 48) →　(56, 56, 56)まで解像度が向上
 
 ## Environment
 Anaconda
