@@ -40,7 +40,7 @@ Anaconda
 
 Python 3.6
 
-tensorflow-gpu==1.14.0(for CUDA 10) or 1.10.0(for CUDA 9)
+tensorflow-gpu==1.14.0(for CUDA 10.0) or 1.10.0(for CUDA 9.0)
 
 tensorfow-lms== 0.1.0 (for UnifuedMemory)
 
