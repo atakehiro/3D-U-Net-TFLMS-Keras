@@ -4,7 +4,9 @@
 
 Code is adapted from https://github.com/ellisdg/3DUnetCNN for Unified Memory.
 
-元々のKerasのコードをtf.kerasでの実装に変更しました。
+＊元々のKerasのコードをtf.kerasでの実装に変更しました。
+
+＊The original Keras code is changed to a tf.keras implementation.
 
 UnifuedMemoryはIBMのTensorFlow Large Model Support version 1を使用しています。
 
