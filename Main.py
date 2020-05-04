@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-import tensorflow as tf
 import tifffile
 import numpy as np
 from functions import unet_model_3d, data_gen
