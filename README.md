@@ -24,6 +24,10 @@ python Main_LMS.py
 ```
 Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用いる)
 
+```bash
+python Main.py
+```
+
 ## Benefit of UnifuedMemory
 環境：RTX2080(8GB)のGPU + メインメモリ32GB
 
