@@ -29,9 +29,9 @@ python Main.py
 ```
 
 ## Benefit of UnifuedMemory
-環境：RTX2080(8GB)のGPU + メインメモリ32GB
+環境：RTX2080(8GB)のGPU + メインメモリ32GBの場合
 
-UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)
+UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)の比較において
 
 window size：(48, 48, 48) →　(56, 56, 56)まで解像度が向上
 
