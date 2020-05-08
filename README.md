@@ -1,14 +1,14 @@
 # 3D-U-Net-TFLMS-Keras
 
-このコードはhttps://github.com/ellisdg/3DUnetCNN の3D U-NetをUnifuedMemoryで出来るように改変したものです。
+このコードはhttps://github.com/ellisdg/3DUnetCNN の3D U-NetをTFLMS(TensorFlow Large Model Support)で出来るように改変したものです。
 
-Code is adapted from https://github.com/ellisdg/3DUnetCNN for Unified Memory.
+Code is adapted from https://github.com/ellisdg/3DUnetCNN forTFLMS.
 
 ＊元々のKerasのコードをtf.kerasでの実装に変更しました。
 
 ＊The original Keras code is changed to a tf.keras implementation.
 
-UnifuedMemoryはIBMのTensorFlow Large Model Support version 1を使用しています。
+IBMのTensorFlow Large Model Support version 1を使用しています。
 
 詳細はhttps://github.com/IBM/tensorflow-large-model-support/tree/tflmsv1
 
@@ -28,7 +28,7 @@ Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用い�
 python Main.py
 ```
 
-## Benefit of UnifuedMemory
+## Benefit of TFLMS
 環境：RTX2080(8GB)のGPU + メインメモリ32GBの場合
 
 UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)の比較において
