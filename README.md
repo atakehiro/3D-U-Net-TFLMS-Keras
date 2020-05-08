@@ -22,7 +22,7 @@ Main_LMS.pyで画像のパスやwindow sizeなどのパラメータを調整し�
 export TF_FORCE_GPU_ALLOW_GROWTH=true
 python Main_LMS.py
 ```
-Main.pyはUnifiedMemoryを使わないスクリプト(比較のために用いる)
+Main.pyはTFLMSを使わないスクリプト(比較のために用いる)
 
 ```bash
 python Main.py
@@ -31,7 +31,7 @@ python Main.py
 ## Benefit of TFLMS
 環境：RTX2080(8GB)のGPU + メインメモリ32GBの場合
 
-UnifuedMemoryなし「Main.py」　→　UnifuedMemoryあり「Main_LMS.py」　(batch size = 8)の比較において
+TFLMSなし「Main.py」　→　TFLMSあり「Main_LMS.py」　(batch size = 8)の比較において
 
 window size：(48, 48, 48) →　(56, 56, 56)まで解像度が向上
 
@@ -42,7 +42,7 @@ Python 3.6
 
 tensorflow-gpu==1.14.0(for CUDA 10.0) or 1.10.0(for CUDA 9.0)
 
-tensorfow-lms== 0.1.0 (for UnifuedMemory)
+tensorfow-lms== 0.1.0 (for TFLMS)
 
 keras==2.3.1
 
