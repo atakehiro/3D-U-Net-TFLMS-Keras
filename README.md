@@ -28,9 +28,9 @@ Main.pyはTFLMSを使わないスクリプト(比較のために用いる)
 python Main.py
 ```
 
-Main_UnifiedMemory.pyはUnifiedMemoryを使用するスクリプトです（おまけ）
+＊Main_UMy.pyはUnifiedMemoryを使用するスクリプトです（おまけ）
 ```bash
-python Main_UnifiedMemory.py
+python Main_UM.py
 ```
 
 ## Benefit of TFLMS
