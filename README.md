@@ -28,7 +28,7 @@ Main.pyはTFLMSを使わないスクリプト(比較のために用いる)
 python Main.py
 ```
 
-＊Main_UMy.pyはUnifiedMemoryを使用するスクリプトです（おまけ）
+＊Main_UMy.pyはUnifiedMemoryを使用するスクリプト(おまけ)
 ```bash
 python Main_UM.py
 ```
