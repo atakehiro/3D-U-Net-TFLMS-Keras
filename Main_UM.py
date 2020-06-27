@@ -1,14 +1,13 @@
 #!/usr/bin/env python
-
-import tifffile
-from functions import unet_model_3d, data_gen
-
 import tensorflow as tf
 from tensorflow.python.keras import backend as K
 config = tf.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 4
 config.gpu_options.allow_growth = True
 K.set_session(tf.Session(config=config))
+
+import tifffile
+from functions import unet_model_3d, data_gen
 
 if __name__ == "__main__":
     image = tifffile.imread('traindata/training_input.tif')
