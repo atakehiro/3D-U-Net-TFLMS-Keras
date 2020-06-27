@@ -12,7 +12,6 @@ from tensorflow_large_model_support import LMSKerasCallback
 lms_callback = LMSKerasCallback()
 
 import tifffile
-import numpy as np
 from functions import unet_model_3d, data_gen
 
 if __name__ == "__main__":
