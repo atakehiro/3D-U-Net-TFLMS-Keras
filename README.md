@@ -12,7 +12,7 @@ IBMのTensorFlow Large Model Support version 1を使用しています。
 
 詳細はhttps://github.com/IBM/tensorflow-large-model-support/tree/tflmsv1
 
-参考：https://qiita.com/takeajioka/items/22b3a6d1a2b72b649ce7
+参考記事：https://qiita.com/takeajioka/items/22b3a6d1a2b72b649ce7
 
 
 ## Usage
