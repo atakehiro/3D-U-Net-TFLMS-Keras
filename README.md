@@ -1,8 +1,8 @@
 # 3D-U-Net-TFLMS-Keras
 
-このコードはhttps://github.com/ellisdg/3DUnetCNN の3D U-NetをTFLMS(TensorFlow Large Model Support)で出来るように改変したものです。
+このコードはhttps://github.com/ellisdg/3DUnetCNN (MIT License, Copyright (c) 2017 David G Ellis) の3D U-NetをTFLMS(TensorFlow Large Model Support)で出来るように改変したものです。
 
-Code is adapted from https://github.com/ellisdg/3DUnetCNN for TFLMS.
+Code is adapted from https://github.com/ellisdg/3DUnetCNN (MIT License, Copyright (c) 2017 David G Ellis) for TFLMS.
 
 ＊元々のKerasのコードをtf.kerasでの実装に変更しました。
 
